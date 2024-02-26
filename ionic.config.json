@@ -1,0 +1,7 @@
+{
+  "name": "BinRadar2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
