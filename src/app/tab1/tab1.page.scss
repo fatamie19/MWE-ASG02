@@ -10,8 +10,8 @@
 }
 
 #container ion-card {
-  flex: 1 0 48%;
-  margin: 1%;
+  flex: 1 0 30%;
+  margin: 2%;
 }
 
 ion-content {
@@ -35,7 +35,6 @@ ion-header,
 ion-toolbar,
 ion-title {
   color: white;
-  text-align: center;
 }
 
 ion-header ion-toolbar {
@@ -64,4 +63,18 @@ ion-icon {
 img {
   width: 50%;
   height: auto;
+}
+
+ion-icon {
+  color: white;
+}
+
+.dashboard-title {
+  text-align: center;
+}
+
+ion-tab-button.left-tab {
+  position: absolute;
+  left: 5px;
+  top: 2px;
 }

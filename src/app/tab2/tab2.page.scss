@@ -23,3 +23,9 @@ ion-item {
 ion-title {
   text-align: center;
 }
+
+ion-tab-button.left-tab {
+  position: absolute;
+  left: 5px;
+  top: 2px;
+}

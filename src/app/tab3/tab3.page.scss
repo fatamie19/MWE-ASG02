@@ -21,3 +21,18 @@ ion-button {
   --background: #1d1d1d8a;
   color: white;
 }
+
+ion-title {
+  text-align: center;
+}
+
+ion-tab-button.left-tab {
+  position: absolute;
+  left: 5px;
+  top: 2px;
+}
+
+h5 {
+  color: black;
+  text-align: center;
+}
