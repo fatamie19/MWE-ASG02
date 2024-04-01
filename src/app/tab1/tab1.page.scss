@@ -1,0 +1,48 @@
+.card {
+  --ion-card-background: #95d681;
+  --ion-card-width: 40%;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#container ion-card {
+  flex: 1 0 48%;
+  margin: 1%;
+}
+
+ion-content {
+  --background: #ffffff;
+}
+
+//   ion-header ion-toolbar {
+//     --background: #89CFF0 ;
+//   }
+
+ion-content,
+ion-card,
+ion-card-title,
+ion-card-subtitle,
+ion-card-content {
+  color: black;
+}
+
+ion-header,
+ion-toolbar,
+ion-title {
+  color: white;
+}
+
+ion-header ion-toolbar {
+  --background: #01a940;
+}
+
+ion-icon {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1px;
+  color: black;
+}

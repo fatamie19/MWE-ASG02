@@ -1,0 +1,23 @@
+.label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+ion-header ion-toolbar {
+  --background: #01a940;
+}
+
+ion-content {
+  --background: #ffffff;
+}
+
+ion-item {
+  --background: #95d681;
+  color: white;
+}
+
+ion-button {
+  --background: #1d1d1d8a;
+  color: white;
+}
