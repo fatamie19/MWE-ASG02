@@ -1,22 +1,25 @@
+ion-header ion-toolbar {
+  --background: #01a940;
+}
 
-ion-header ion-toolbar{
-    --background: #01A940 ;
-  }
+ion-content {
+  --background: #ffffff;
+}
 
-  ion-content {
-    --background: #ffffff;
-  }
+ion-item {
+  --background: #95d681;
+}
 
-  ion-item {
-    --background: #95d681 ;
-  }
+ion-item {
+  --color: black;
+}
 
-  ion-item{
-    --color: black;
-  }
+.ion-padding {
+  --ion-padding: 14px;
+  background-color: #f3f3f3ee;
+  color: black;
+}
 
-  .ion-padding{
-    --ion-padding: 14px;
-    background-color: #f3f3f3ee ;
-    color: black;
-  }
+ion-title {
+  text-align: center;
+}
