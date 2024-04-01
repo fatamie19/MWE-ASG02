@@ -1,6 +1,6 @@
 .card {
   --ion-card-background: #95d681;
-  --ion-card-width: 40%;
+  --ion-card-width: 30%;
 }
 
 #container {
@@ -28,12 +28,14 @@ ion-card-title,
 ion-card-subtitle,
 ion-card-content {
   color: black;
+  text-align: center;
 }
 
 ion-header,
 ion-toolbar,
 ion-title {
   color: white;
+  text-align: center;
 }
 
 ion-header ion-toolbar {
@@ -45,4 +47,21 @@ ion-icon {
   margin: 0 auto;
   margin-bottom: 1px;
   color: black;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.orange {
+  color: orange;
+}
+
+img {
+  width: 50%;
+  height: auto;
 }
