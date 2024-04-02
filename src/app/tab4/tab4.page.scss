@@ -1,0 +1,66 @@
+ion-header ion-toolbar {
+  --background: #01a940;
+}
+
+ion-content {
+  --background: #ffffff;
+}
+
+ion-tab-button.left-tab {
+  position: absolute;
+  left: 5px;
+  top: 2px;
+}
+
+ion-title {
+  text-align: center;
+}
+
+ion-card {
+  --ion-card-background: white;
+  --ion-card-width: 30%;
+  color: black;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.img-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+ion-tab-button {
+  color: white;
+}
+
+.left-icon {
+  display: flex; /* Make the container display inline */
+  align-items: center; /* Align items vertically */
+}
+
+.left-icon ion-icon {
+  margin-right: 8px; /* Add some spacing between the icon and text */
+}
+
+.notification-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.notification-button ion-icon {
+  margin-right: 5px; /* Adjust as needed */
+}
+
+#out {
+  color: red;
+}
